@@ -1,0 +1,42 @@
+A REST API with Node, Express, TypeScript, MongoDB + Authentication 
+
+==============================================
+
+
+$ npm init -y 
+$ npm install -D typescript
+$ npm install -D ts-node
+$ npm install -D nodemon 
+
+Configure: 
+
+- Create tsconfig.json 
+- Create nodemon.json 
+- Create src folder
+- inside src folder, crate index.ts 
+- inside package.json, add start script 
+- run the index.ts using npm start 
+
+- Create express server in index.ts 
+
+
+$ npm install express body-parser cookie-parser compression cors
+
+Install their types: 
+
+$ npm install -D @types/express @types/body-parser @types/cookie-parser @types/cors
+
+$ npm install --save @types/compression
+
+
+$ npm install mongoose 
+$ npm i -D @types/mongoose
+
+- Create user model 
+- Create helpers for authentication 
+- Create authentication controllers 
+- Authentication routing and logging in 
+
+
+$ npm i lodash 
+$ npm i -D @types/lodash
